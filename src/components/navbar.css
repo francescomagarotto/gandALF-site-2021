@@ -1,0 +1,15 @@
+nav {
+  background: rgb(142, 27, 29);
+}
+.menu-item:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (max-width: 1090px) {
+  #navbar-subtitle {
+    display: none;
+  }
+}

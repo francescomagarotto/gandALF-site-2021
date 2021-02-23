@@ -1,1 +1,34 @@
-{"name":"gand-alf-2021","version":"1.0.0","private":true,"description":"GandALF 2021","author":"Francesco Magarotto","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"dependencies":{"bootstrap":"^4.5.3","gatsby":"^2.26.1","gatsby-image":"^2.9.0","gatsby-plugin-manifest":"^2.10.0","gatsby-plugin-react-helmet":"^3.8.0","gatsby-plugin-sass":"^3.0.0","gatsby-plugin-sharp":"^2.12.0","gatsby-plugin-sitemap":"^2.10.0","gatsby-source-filesystem":"^2.9.0","gatsby-transformer-sharp":"^2.10.0","react":"^16.13.1","react-bootstrap":"^1.4.3","react-dom":"^16.13.1","react-helmet":"^6.1.0","sass":"^1.32.4"}}
+{
+  "name": "gand-alf-2021",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GandALF 2021",
+  "author": "Francesco Magarotto",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "gatsby": "^2.32.4",
+    "gatsby-image": "^2.9.0",
+    "gatsby-plugin-manifest": "^2.10.0",
+    "gatsby-plugin-react-helmet": "^3.8.0",
+    "gatsby-plugin-sass": "^3.0.0",
+    "gatsby-plugin-sharp": "^2.12.0",
+    "gatsby-plugin-sitemap": "^2.10.0",
+    "gatsby-source-filesystem": "^2.9.0",
+    "gatsby-transformer-sharp": "^2.10.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.32.4"
+  }
+}

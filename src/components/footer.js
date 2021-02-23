@@ -13,10 +13,12 @@ export default function CustomFooter(props) {
             <img
               className={"img-fluid mx-auto"}
               src={UniversityLogo}
+              width="100%"
+              hidth="100%"
               alt={"University of Padova Logo"}
             />
           </div>
-          <div className={"col-4"}></div>
+          <div className={"col-4 align-self-center"}><span className={"text-white text-center"}>Last update: 2/23/2021</span></div>
           <div className={"col-4 align-self-center"}>
             <button
               className={"btn btn-success float-right"}

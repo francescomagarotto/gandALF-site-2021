@@ -23,6 +23,9 @@ export default function Layout(props) {
         return (
           <React.Fragment>
             <Helmet
+              htmlAttributes={{
+                lang: 'en',
+              }}
               meta={[
                 { name: "description", content: "Sample" },
                 { name: "keywords", content: "sample, something" },

@@ -31,7 +31,7 @@ const CustomNavbar = ({ menuLinks }) => {
             </Link>
           ))}
         </Nav>
-        <span className="navbar-text text-white lead" id="navbar-subtitle">
+        <span className="navbar-text text-white" id="navbar-subtitle">
           12th International Symposium on Games, Automata, Logics, and Formal
           Verification
         </span>

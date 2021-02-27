@@ -1,9 +1,9 @@
-import React from "react";
-import UniversityLogo from "../images/800-white.png";
+import React from "react"
+import UniversityLogo from "../images/800-white.png"
 export default function CustomFooter(props) {
-  const scrollTop = (e) => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  const scrollTop = e => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
 
   return (
     <footer className="text-muted bg-dark p-3">
@@ -18,12 +18,16 @@ export default function CustomFooter(props) {
               alt={"University of Padova Logo"}
             />
           </div>
-          <div className={"col-4 align-self-center"}><span className={"text-white text-center"}>Last update: 2/23/2021</span></div>
+          <div className={"col-4 align-self-center"}>
+            <span className={"text-white text-center"}>
+              Last update: 2/27/2021
+            </span>
+          </div>
           <div className={"col-4 align-self-center"}>
             <button
               className={"btn btn-success float-right"}
               style={{ fontSize: "0.8em" }}
-              onClick={(e) => scrollTop()}
+              onClick={e => scrollTop()}
             >
               Back to top
             </button>
@@ -31,5 +35,5 @@ export default function CustomFooter(props) {
         </div>
       </div>
     </footer>
-  );
+  )
 }

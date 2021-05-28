@@ -31,7 +31,7 @@ const IndexPage = props => {
           <p className="mb-2">
             This year, GANDALF will be organised together with the 3rd Workshop
             on Artificial Intelligence and fOrmal VERification, Logic, Automata,
-            and sYnthesis (<a href="https://overlay.uniud.it/">OVERLAY 2021</a>
+            and sYnthesis (<a href="https://overlay.uniud.it/workshop/2021/">OVERLAY 2021</a>
             ). The OVERLAY workshop focuses on the relationships between
             Artificial Intelligence and Formal Methods, and discusses on the
             opportunities and challenges at the border of the two areas. Both

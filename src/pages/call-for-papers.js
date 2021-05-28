@@ -76,10 +76,11 @@ const CallForPapers = props => {
         <p>
           The proceedings will be published by Electronic Proceedings in
           Theoretical Computer Science (
-          <a href="http://www.eptcs.org/">http://www.eptcs.org/</a>). Authors of
-          the best papers will be invited to submit a revised version of their
-          work to a special issue of an established international journal. The
-          previous editions of GandALF already led to special issues of the
+          <a href="http://www.eptcs.org/">http://www.eptcs.org/</a>).
+          <b>Authors of the best papers will be invited to submit a revised
+          version of their work to a special issue of Logical Methods in
+           Computer Science (<a href="https://lmcs.episciences.org/">https://lmcs.episciences.org/</a>)</b>.
+          The previous editions of GandALF already led to special issues of the
           International Journal of Foundations of Computer Science (GandALF
           2010), Theoretical Computer Science (GandALF 2011 and 2012),
           Information and Computation (GandALF 2013, 2014, 2016, 2017, 2019 and
@@ -91,7 +92,7 @@ const CallForPapers = props => {
           <p>
             Submitted papers should not exceed fourteen (14) pages using EPTCS
             format (please use the LaTeX style provided at
-            http://style.eptcs.org), be unpublished and contain original
+            <a href="http://style.eptcs.org">http://style.eptcs.org</a>), be unpublished and contain original
             research. For papers reporting experimental results, authors are
             encouraged to make their data available with their submission.
             Submissions must be in PDF format and will be handled via the

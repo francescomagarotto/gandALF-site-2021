@@ -20,7 +20,7 @@ export default function CustomFooter(props) {
           </div>
           <div className={"col-4 align-self-center"}>
             <span className={"text-white text-center"}>
-              Last update: 05/28/2021
+              Last update: 06/22/2021
             </span>
           </div>
           <div className={"col-4 align-self-center"}>

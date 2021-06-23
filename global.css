@@ -9,10 +9,39 @@ body {
 span[class^="ReactRibbons_rightCornerLargeRibbonText"] {
   font-size: 9px !important;
 }
-
-ul,
-dl {
+ul {
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
+  -webkit-column-break-inside: avoid; /* Chrome, Safari, Opera */
+  page-break-inside: avoid; /* Firefox */
+  break-inside: avoid;
+}
+
+.grid-dl dt {
+  border-top: 2px solid #ccc;
+  padding: 0.5em 0 0.5em 0;
+  font-weight: 600;
+}
+
+.grid-dl dd {
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
+}
+
+@media (min-width: 550px) {
+  .grid-dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+  }
+  .grid-dl dt {
+    grid-column-start: 1;
+  }
+  .grid-dl dd {
+    grid-column-start: 2;
+  }
+  .grid-dl dt+dd {
+    border-top: 2px solid #ccc;
+  }
 }

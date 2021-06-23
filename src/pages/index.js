@@ -2,12 +2,13 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import PratoValle from "../images/pvalle.jpg"
+import DipLogo from "../images/diplogo.svg";
 const IndexPage = props => {
   return (
     <Layout>
       <Helmet title={"Home - " + process.env.GATSBY_SITE_NAME} />
 
-      <main className={"flex-fill col-md-8 offset-md-2 col-sm-12 p-1"}>
+      <main className={"flex-fill col-md-8 offset-md-2 col-sm-12 p-1 mb-4"}>
         <h1 className="mb-1">Welcome to GandALF 2021</h1>
         <section>
           <img
@@ -31,7 +32,8 @@ const IndexPage = props => {
           <p className="mb-2">
             This year, GANDALF will be organised together with the 3rd Workshop
             on Artificial Intelligence and fOrmal VERification, Logic, Automata,
-            and sYnthesis (<a href="https://overlay.uniud.it/workshop/2021/">OVERLAY 2021</a>
+            and sYnthesis (
+            <a href="https://overlay.uniud.it/workshop/2021/">OVERLAY 2021</a>
             ). The OVERLAY workshop focuses on the relationships between
             Artificial Intelligence and Formal Methods, and discusses on the
             opportunities and challenges at the border of the two areas. Both
@@ -60,6 +62,29 @@ const IndexPage = props => {
                 Updates on the organization mode will be published and
                 advertised in due time.
               </b>
+            </div>
+          </div>
+        </section>
+        <section className={"p-1"}>
+          <div className="row">
+            <div className="col-6 align-self-center lead text-right">
+            <h4 className="text-center">Support</h4>
+              <ul style={{ listStyleType: "none", "columns": 1}}>
+                <li>
+                  <a href="https://www.math.unipd.it/">
+                    Department of Mathematics
+                  </a>
+                  , University of Padua
+                </li>
+                <li>
+                  <a href="https://www.altamatematica.it/gncs/en/">
+                    Gruppo Nazionale per il Calcolo Scientifico
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="col-6 border-left border-danger">
+              <img src={DipLogo} className={"img-fuild float-left"} style={{"width": "30%"}} alt="Department of Mathematics logo"/>
             </div>
           </div>
         </section>

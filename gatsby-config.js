@@ -1,10 +1,10 @@
 const activeEnv =
   process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
-console.log(`Using environment config: '${activeEnv}'`);
+console.log(`Using environment config: '${activeEnv}'`)
 require("dotenv").config({
   path: `.env.${activeEnv}`,
-});
-console.log(process.env.GATSBY_SITE_URL);
+})
+console.log(process.env.GATSBY_SITE_URL)
 module.exports = {
   siteMetadata: {
     title: "GandALF 2021",
@@ -17,24 +17,25 @@ module.exports = {
       },
       {
         name: "Call for papers",
-        link: "/call-for-papers"
+        link: "/call-for-papers",
       },
       {
         name: "Invited Speakers",
-        link: "/invited-speakers"
-      }, 
+        link: "/invited-speakers",
+      },
       {
         name: "Program",
-        link: "/program"
+        link: "/program",
       },
       {
         name: "Committees",
-        link: "/committees"
+        link: "/committees",
       },
       {
         name: "Venue",
-        link: "/venue"
+        link: "/venue",
       },
+      { name: "Registration", link: "/registration" },
     ],
   },
   plugins: [
@@ -58,4 +59,4 @@ module.exports = {
       __key: "images",
     },
   ],
-};
+}

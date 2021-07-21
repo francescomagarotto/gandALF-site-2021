@@ -6,9 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
-span[class^="ReactRibbons_rightCornerLargeRibbonText"] {
-  font-size: 9px !important;
-}
+
 ul {
   columns: 2;
   -webkit-columns: 2;
@@ -44,4 +42,14 @@ ul {
   .grid-dl dt+dd {
     border-top: 2px solid #ccc;
   }
+}
+
+@media (max-width: 1543px) { 
+  .navbar-text {
+    display: none;
+  }
+}
+
+.venue-h3 {
+  margin-top: 1.5em;
 }

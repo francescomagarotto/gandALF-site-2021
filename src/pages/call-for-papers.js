@@ -63,7 +63,7 @@ const CallForPapers = props => {
             <dt>Paper submission</dt>
             <dd><del>June 30, 2021</del> July 7, 2021</dd>
             <dt>Notification</dt>
-            <dd><del>July 30, 2021</del> August 4, 2021</dd>
+            <dd><del>July 30, 2021</del> August 8, 2021</dd>
             <dt>Camera-ready</dt>
             <dd>August 30, 2021</dd>
             <dt>Conference</dt>

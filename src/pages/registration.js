@@ -14,8 +14,12 @@ const Registration = props => {
             GandALF 2021 and OVERLAY 2021 will take place in a mixed mode. You
             can choose to attend the events either physically or online. When
             physically attending the conference, you will receive two coffee
-            breaks and one lunch per day. Moreover, there will be a social event
-            and a social dinner on Tuesday. Workshop only registration does not
+            breaks and one lunch per day, and a ticket for the social event and
+            the social dinner on Tuesday. You can purchase one additional ticket
+            for the social event and the social dinner for an accompanying
+            person by selecting the option "Additional social event ticket” in
+            the registration form. Student registration includes one social
+            event and social dinner ticket. Workshop only registration does not
             include the social event and social dinner. The online mode uses
             Zoom to stream the conference sessions, and Slack to interact with
             other attendees and with the organisers. For online and workshop

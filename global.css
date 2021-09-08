@@ -7,6 +7,14 @@ body {
   padding: 0;
 }
 
+#programul {
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1;
+}
+#programul > li:not(:last-child) {
+  margin-bottom: 1.5em;
+}
 ul {
   columns: 2;
   -webkit-columns: 2;

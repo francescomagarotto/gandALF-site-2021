@@ -35,6 +35,14 @@ module.exports = {
         name: "Venue",
         link: "/venue",
       },
+      {
+        name: "Covid 19",
+        link: "/covid",
+      },
+      {
+        name: "Accommodation",
+        link: "/accommodation",
+      },
       { name: "Registration", link: "/registration" },
     ],
   },

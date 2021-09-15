@@ -55,7 +55,7 @@ const Venue = props => {
             <dt>GoOpti </dt>
             <dd>
               <a href="https://www.goopti.com/en/">
-                https://www.airserviceshuttle.it/en
+                https://www.goopti.com/en/
               </a>
             </dd>
             <dt>Landomas </dt>

@@ -278,7 +278,7 @@ const Program = props => {
                 </tr>
                 <tr>
                   <td>10:45-11:35</td>
-                  <td>
+                  <td style={{borderRight: "solid 1px #dee2e6"}}>
                     Session 6 - Logic 2<br />
                     Giovanni Pagliarini and Guido Sciavicco: “Decision Tree
                     Learning with Spatial Modal Logics”
@@ -288,7 +288,7 @@ const Program = props => {
                     <br />
                   </td>
                   <td>10:45-12:45</td>
-                  <td rowSpan="2">OVERLAY Workshop Session 1</td>
+                  <td rowSpan="2" style={{borderLeft: "solid 1px #dee2e6", borderBottom: "solid 1px #dee2e6"}}>OVERLAY Workshop Session 1</td>
                 </tr>
                 <tr>
                   <td>11:35-11:45</td>

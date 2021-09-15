@@ -19,7 +19,7 @@ const Covid = props => {
             check whether and under what conditions you can enter Italy.
           </p>
           <p>As a general rule, the following entry requirements apply:</p>
-          <ol>
+          <ol style={{columns: 1}}>
             <li aria-level="1">
               All travellers must complete the digital Passenger Registration
               Form (<a href="https://app.euplf.eu/">https://app.euplf.eu/</a>)
@@ -30,7 +30,7 @@ const Covid = props => {
               certificates upon arrival in Italy:
             </li>
           </ol>
-          <ul>
+          <ul style={{columns: 1}}>
             <li aria-level="1">
               a negative COVID-19 antigen or molecular test, issued within 48
               hours before arrival.
@@ -70,7 +70,7 @@ const Covid = props => {
         </section>
         <section>
           <h2>At the conference venue</h2>
-          <ul>
+          <ul style={{columns: 1}}>
             <li aria-level="1">
               it is recommended to respect a social distancing of at least 1
               meter

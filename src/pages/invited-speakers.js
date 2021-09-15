@@ -2,6 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import Bloem from "../images/Bloem-Roderick-400x400.jpeg"
+import Muscholl from "../images/anca_muscholl.jpeg"
 const InvitedSpeakers = props => {
   return (
     <Layout>
@@ -52,9 +53,7 @@ const InvitedSpeakers = props => {
           <div className="row p-2 mt-4">
             <div className="col-2 d-none d-lg-block">
               <img
-                src={
-                  "https://www.ias.tum.de/fileadmin/_processed_/8/8/csm_pic_HF_560x720_muscholl_e3c487d01e.jpg"
-                }
+                src={Muscholl}
                 className="img-fluid img-thumbnail float-right"
                 alt="Anca Muscholl"
                 style={{ width: "auto", height: "200px" }}

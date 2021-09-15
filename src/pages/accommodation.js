@@ -10,7 +10,7 @@ const Accomodation = props => {
         <h1 className="text-left">Accommodation</h1>
         <section>
           <h2>Hotels</h2>
-          <ul>
+          <ul style={{columns: 1}}>
             <li aria-level="1">
               Hotel Giotto ***
               <br />
@@ -134,7 +134,7 @@ const Accomodation = props => {
           </section>
           <section>
           <h2>University Accomodations</h2>
-          <ul>
+          <ul style={{columns: 1}}>
             <li aria-level="1">
               Foresteria La Nave - Fondazione Gini <br />
               Address: Via Portello, 15 - 35129 Padova

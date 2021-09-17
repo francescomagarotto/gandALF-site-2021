@@ -46,12 +46,6 @@ const Venue = props => {
           and take you directly to the address of your choice in Padova. The
           reservation must be made at least 24h before your arrival.
           <dl>
-            <dt>Air Service </dt>
-            <dd>
-              <a href="https://www.airserviceshuttle.it/en">
-                https://www.airserviceshuttle.it/en
-              </a>
-            </dd>
             <dt>GoOpti </dt>
             <dd>
               <a href="https://www.goopti.com/en/">

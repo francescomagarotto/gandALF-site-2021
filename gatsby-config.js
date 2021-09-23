@@ -43,7 +43,7 @@ module.exports = {
         name: "Accommodation",
         link: "/accommodation",
       },
-      { name: "Registration", link: "/registration" },
+      // { name: "Registration", link: "/registration" },
     ],
   },
   plugins: [
